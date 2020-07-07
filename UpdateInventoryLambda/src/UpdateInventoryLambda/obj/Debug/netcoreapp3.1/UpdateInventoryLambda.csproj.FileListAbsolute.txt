@@ -1,0 +1,10 @@
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\bin\Debug\netcoreapp3.1\UpdateInventoryLambda.deps.json
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\bin\Debug\netcoreapp3.1\UpdateInventoryLambda.runtimeconfig.json
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\bin\Debug\netcoreapp3.1\UpdateInventoryLambda.runtimeconfig.dev.json
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\bin\Debug\netcoreapp3.1\UpdateInventoryLambda.dll
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\bin\Debug\netcoreapp3.1\UpdateInventoryLambda.pdb
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\obj\Debug\netcoreapp3.1\UpdateInventoryLambda.csprojAssemblyReference.cache
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\obj\Debug\netcoreapp3.1\UpdateInventoryLambda.AssemblyInfoInputs.cache
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\obj\Debug\netcoreapp3.1\UpdateInventoryLambda.AssemblyInfo.cs
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\obj\Debug\netcoreapp3.1\UpdateInventoryLambda.dll
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\obj\Debug\netcoreapp3.1\UpdateInventoryLambda.pdb

@@ -1,0 +1,31 @@
+{
+  "PurchasedInventory": [
+    {
+      "StockItemName": "USB missile launcher (Green)",
+      "ColorName": "",
+      "OuterPackageName": "",
+      "UnitPrice": 0.00,
+      "RecommendedRetailPrice":  0.00,
+      "MarketingComments": "",
+      "PurchaseQuantity": 10
+    },
+    {
+      "StockItemName": "IT joke mug - hardware: part of the computer that can be kicked (White)",
+      "ColorName": "",
+      "OuterPackageName": "",
+      "UnitPrice":  0.00,
+      "RecommendedRetailPrice":  0.00,
+      "MarketingComments": "",
+      "PurchaseQuantity": 10
+    },
+    {
+      "StockItemName": "USB Whoopie Cushion (Red)",
+      "ColorName": "Red",
+      "OuterPackageName": "Box",
+      "UnitPrice":  12.00,
+      "RecommendedRetailPrice":  2.00,
+      "MarketingComments": "A super fun whoopie cushion with a built in speaker for extra noise",
+      "PurchaseQuantity": 1500
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\bin\Release\netcoreapp3.1\rhel.7.2-x64\UpdateInventoryLambda.deps.json
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\bin\Release\netcoreapp3.1\rhel.7.2-x64\UpdateInventoryLambda.runtimeconfig.json
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\bin\Release\netcoreapp3.1\rhel.7.2-x64\UpdateInventoryLambda.runtimeconfig.dev.json
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\bin\Release\netcoreapp3.1\rhel.7.2-x64\UpdateInventoryLambda.dll
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\bin\Release\netcoreapp3.1\rhel.7.2-x64\UpdateInventoryLambda.pdb
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\obj\Release\netcoreapp3.1\rhel.7.2-x64\UpdateInventoryLambda.csprojAssemblyReference.cache
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\obj\Release\netcoreapp3.1\rhel.7.2-x64\UpdateInventoryLambda.AssemblyInfoInputs.cache
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\obj\Release\netcoreapp3.1\rhel.7.2-x64\UpdateInventoryLambda.AssemblyInfo.cs
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\obj\Release\netcoreapp3.1\rhel.7.2-x64\UpdateInventoryLambda.dll
+C:\dev\wwi-inventory-importer\UpdateInventoryLambda\src\UpdateInventoryLambda\obj\Release\netcoreapp3.1\rhel.7.2-x64\UpdateInventoryLambda.pdb
