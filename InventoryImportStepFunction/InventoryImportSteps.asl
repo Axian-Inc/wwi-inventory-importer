@@ -13,7 +13,7 @@
             "Type": "Task",
             "Resource": "arn:aws:states:::lambda:invoke",
             "Parameters": {
-              "FunctionName": "arn:aws:lambda:us-east-2:590316689173:function:gh-get-wwi-stock-data:$LATEST",
+              "FunctionName": "arn:aws:lambda:us-west-2:590316689173:function:ffthh-wwi-get-stock-data:$LATEST",
               "Payload.$": "$"
             },
             "ResultPath": "$",
@@ -62,7 +62,7 @@
                     "Type": "Task",
                     "Resource": "arn:aws:states:::lambda:invoke",
                     "Parameters": {
-                      "FunctionName": "arn:aws:lambda:us-east-2:590316689173:function:gh-update-stock-data:$LATEST",
+                      "FunctionName": "arn:aws:lambda:us-west-2:590316689173:function:ffthh-wwi-update-stock-data:$LATEST",
                       "Payload": {
                         "OperationName": "InsertColor",
                         "StockResult.$": "$"
@@ -86,12 +86,12 @@
                     "Type": "Choice",
                     "Choices": [
                       {
-                        "Variable": "$.ColorExists",
+                        "Variable": "$.PackageTypeExists",
                         "BooleanEquals": false,
                         "Next": "InsertPackageType"
                       },
                       {
-                        "Variable": "$.ColorExists",
+                        "Variable": "$.PackageTypeExists",
                         "BooleanEquals": true,
                         "Next": "SkipPackageTypeCreation"
                       }
@@ -101,7 +101,7 @@
                     "Type": "Task",
                     "Resource": "arn:aws:states:::lambda:invoke",
                     "Parameters": {
-                      "FunctionName": "arn:aws:lambda:us-east-2:590316689173:function:gh-update-stock-data:$LATEST",
+                      "FunctionName": "arn:aws:lambda:us-west-2:590316689173:function:ffthh-wwi-update-stock-data:$LATEST",
                       "Payload": {
                         "OperationName": "InsertPackageType",
                         "StockResult.$": "$"
@@ -134,7 +134,7 @@
             "Type": "Task",
             "Resource": "arn:aws:states:::lambda:invoke",
             "Parameters": {
-              "FunctionName": "arn:aws:lambda:us-east-2:590316689173:function:gh-update-stock-data:$LATEST",
+              "FunctionName": "arn:aws:lambda:us-west-2:590316689173:function:ffthh-wwi-update-stock-data:$LATEST",
               "Payload": {
                 "OperationName": "InsertStockItem",
                 "StockResult.$": "$"
@@ -148,7 +148,7 @@
             "Type": "Task",
             "Resource": "arn:aws:states:::lambda:invoke",
             "Parameters": {
-              "FunctionName": "arn:aws:lambda:us-east-2:590316689173:function:gh-update-stock-data:$LATEST",
+              "FunctionName": "arn:aws:lambda:us-west-2:590316689173:function:ffthh-wwi-update-stock-data:$LATEST",
               "Payload": {
                 "OperationName": "UpdateInventoryQty",
                 "StockResult.$": "$"
