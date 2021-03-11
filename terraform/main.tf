@@ -84,11 +84,11 @@ EOF
 
 
 resource "aws_lambda_function" "data_lambda" {
-  filename         = "../GetDataLambda/src/GetDataLambda/bin/Release/netcoreapp3.1/GetDataLambda.zip"
+  filename         = "../src/GetDataLambda.zip"
   function_name    = "get-inventory-data-${var.env}"
   role             = aws_iam_role.iam_for_lambda.arn
   handler          = "GetDataLambda::GetDataLambda.Function::FunctionHandler"
-  source_code_hash = filebase64sha256("../GetDataLambda/src/GetDataLambda/bin/Release/netcoreapp3.1/GetDataLambda.zip")
+  source_code_hash = filebase64sha256("../src/GetDataLambda.zip")
   runtime          = "dotnetcore3.1"
   timeout = 30
 
@@ -103,11 +103,11 @@ resource "aws_lambda_function" "data_lambda" {
 }
 
 resource "aws_lambda_function" "insert_lambda" {
-  filename         = "../UpdateInventoryLambda/src/UpdateInventoryLambda/bin/Release/netcoreapp3.1/UpdateInventoryLambda.zip"
+  filename         = "../src/UpdateInventoryLambda.zip"
   function_name    = "insert-inventory-${var.env}"
   role             = aws_iam_role.iam_for_lambda.arn
   handler          = "UpdateInventoryLambda::UpdateInventoryLambda.Function::FunctionHandler"
-  source_code_hash = filebase64sha256("../UpdateInventoryLambda/src/UpdateInventoryLambda/bin/Release/netcoreapp3.1/UpdateInventoryLambda.zip")
+  source_code_hash = filebase64sha256("../src/UpdateInventoryLambda.zip")
   runtime          = "dotnetcore3.1"
   timeout = 30
 
@@ -122,11 +122,11 @@ resource "aws_lambda_function" "insert_lambda" {
 }
 
 resource "aws_lambda_function" "streamer_lambda" {
-  filename         = "../PurchaseStreamLambda/src/PurchaseStreamLambda/bin/Release/netcoreapp3.1/PurchaseStreamLambda.zip"
+  filename         = "../src/PurchaseStreamLambda.zip"
   function_name    = "stream-purchase-${var.env}"
   role             = aws_iam_role.iam_for_lambda.arn
   handler          = "PurchaseStreamLambda::PurchaseStreamLambda.Function::FunctionHandler"
-  source_code_hash = filebase64sha256("../PurchaseStreamLambda/src/PurchaseStreamLambda/bin/Release/netcoreapp3.1/PurchaseStreamLambda.zip")
+  source_code_hash = filebase64sha256("../src/PurchaseStreamLambda.zip")
   runtime          = "dotnetcore3.1"
   timeout = 30
 
